@@ -7,7 +7,20 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
-        }
+        },
+        {
+            "type": "package",
+            "package": {
+              "name": "sn/d8theme",
+              "version": "0.1.0",
+              "type": "package",
+              "source": {
+                "url": "https://github.com/StraightNorth/sndev_d8.git",
+                "type": "git",
+                "reference": "master"
+              }
+            }
+          }
     ],
     "require": {
         "php": ">=7.0.8",
@@ -23,7 +36,8 @@
         "pantheon-systems/quicksilver-pushback": "~1",
         "rvtraveller/qs-composer-installer": "^1.1",
         "webflo/drupal-core-strict": "^8.6.15",
-        "zaporylie/composer-drupal-optimizations": "^1.0"
+        "zaporylie/composer-drupal-optimizations": "^1.0",
+        "sn/d8theme": "*"
     },
     "require-dev": {
         "behat/behat": "3.*",
