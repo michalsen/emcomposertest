@@ -11,16 +11,17 @@
         {
             "type": "package",
             "package": {
-              "name": "sn/d8theme",
-              "version": "0.1.0",
-              "type": "package",
-              "source": {
-                "url": "https://github.com/StraightNorth/sndev_d8.git",
-                "type": "git",
-                "reference": "master"
-              }
+                "name": "sn/d8theme",
+                "version": "1.0",
+                "type": "drupal-theme",
+                "source": {
+                    "url": "https://github.com/StraightNorth/sndev_d8.git",
+                    "type": "git",
+                    "reference": "master"
+                }
             }
-          }
+        }
+
     ],
     "require": {
         "php": ">=7.0.8",
@@ -31,13 +32,14 @@
         "drupal/config_installer": "^1.0",
         "drupal/console": "^1",
         "drupal/core": "^8.6.15",
+        "drupal/pathauto": "^1.4",
         "drush-ops/behat-drush-endpoint": "^9.3",
         "drush/drush": "~8",
         "pantheon-systems/quicksilver-pushback": "~1",
         "rvtraveller/qs-composer-installer": "^1.1",
+        "sn/d8theme": "^1.0",
         "webflo/drupal-core-strict": "^8.6.15",
-        "zaporylie/composer-drupal-optimizations": "^1.0",
-        "sn/d8theme": "*"
+        "zaporylie/composer-drupal-optimizations": "^1.0"
     },
     "require-dev": {
         "behat/behat": "3.*",
