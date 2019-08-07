@@ -1,5 +1,7 @@
 <?php
 
+$settings['hash_salt'] = '123';
+
 /**
  * Load services definition file.
  */
