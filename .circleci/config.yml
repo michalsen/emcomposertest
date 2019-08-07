@@ -104,6 +104,10 @@ jobs:
         steps:
             - checkout
 
+            - add_ssh_keys:
+                fingerprints:
+                  - "59:89:da:75:16:f2:41:13:52:25:7f:f3:b5:c4:34:79"
+
             - restore_cache:
                 keys:
                     - composer-cache
