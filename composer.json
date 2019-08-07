@@ -131,7 +131,7 @@
             "php": "7.0.8"
         },
         "github-oauth": {
-            "github.com": "SND8_APIKEY"
+            "github.com": ${SND8_APIKEY}
         }
     }
 }
