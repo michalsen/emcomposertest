@@ -129,6 +129,9 @@
         "sort-packages": true,
         "platform": {
             "php": "7.0.8"
+        },
+        "github-oauth": {
+            "github.com": "40c7871ffe1c796cce83eaabe53c637b06fd5f2e"
         }
     }
 }
